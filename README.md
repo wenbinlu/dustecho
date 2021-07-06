@@ -5,6 +5,6 @@ Inside each file, there are four rows (separated by '\n'). The first row shows t
 
 tobs = numpy.logspace(tobsmin, tobsmax, Ntobs)
 
-The second line shows the meaning of the later two rows of numbers: Ldnu is the specific luminosity [in erg/s/Hz] at wavelength lambda specificed in the filename; xcentr is the projected distance [in pc] between the flux centroid and the center of explosion on the sky. The third row shows Ldnu and the last row shows xcentr. When Ldnu = 0 (dust echo hasn't arrived yet), we have xcentr = numpy.nan (does not exist).
+The second line shows the meaning of the later two rows of numbers: Ldnu is the specific luminosity [in erg/s/Hz] at wavelength lambda specificed in the filename; xcentr is the projected distance [in pc] between the flux centroid and the center of explosion on the sky. The third row shows Ldnu and the last row shows xcentr, at each time grid. When Ldnu = 0 (dust echo hasn't arrived yet), we have xcentr = numpy.nan (does not exist).
 
 A final note is that the dust echo from the counter jet (which propagates away from the observer) is not included. The authors plan to publish the computing code (written in Python 3.7) after the paper is accepted for publication.
