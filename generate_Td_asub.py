@@ -7,7 +7,7 @@ from math import pi, log10, sqrt, log, exp, sqrt, atan, cos, sin, acos, asin
 # adjustable parameters
 nH0 = 1                # [cm^-3] H number density
 tmax = 300.     # [s], duration of the source
-LUV = 1e47      # [erg/s]  # source luminosity
+LUV = 3e47      # [erg/s]  # source luminosity
 
 # fixed parameters
 tmin = 0.
