@@ -17,4 +17,6 @@ The second line shows the meaning of the later two rows of numbers: 'Ldnu' is th
 
 Note that the dust echo from the counter jet (which propagates away from the observer) is not included, and we do not expect the counter-jet echo to contribute significantly to the total flux in the first decade after the explosion. It takes very little additional effort to compute the counter-jet echo, if needed.
 
+The biggest uncertainty is the isotropic equivalent UV luminosity 'LUV' and duration 'tmax' from the source. In the case of short GRBs, dust heating is dominated by the UV-optical photons from the reverse shock, so LUV and tmax will depend on the CSM density at a distance of ~0.1pc from the source, initial jet Lorentz factor Gamma_0, and the isotropic equivalent energy of the jet E_j. For typical parameters (E_j ~ 1e52 erg and Gamma_0 ~ 100), we expect the total energy E ~ LUV * tmax to be in the range (1e48, 3e51) ergs. The default choice is LUV = 3e47 erg/s and tmax = 300 sec (which is for a reasonably high CSM density of ~0.1 cm^-3). Lower CSM density will decrease the total radiation energy of the source.
+
 See arXiv:2108.04243 for a detailed description of the method used in this project.
