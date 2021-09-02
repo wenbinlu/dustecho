@@ -2,7 +2,7 @@ import os
 from math import pi
 from fpath import *
 
-nH0_list = [1e-1, 1]        # [cm^-3]
+nH0_list = [1]        # [cm^-3]
 lamobs_list = [1.14, 1.39, 1.54]    # micron
 theobs_list = [20*pi/180]   # radian
 
